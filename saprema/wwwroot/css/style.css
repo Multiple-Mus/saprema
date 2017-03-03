@@ -24,6 +24,9 @@ a:active {
 .navbar-brand {
     font-weight: 700;
     font-size: 2em;
+    padding-left: 0px;
+    margin-left: 100px !important;
+    position: absolute;
 }
 
 .navLink {
@@ -41,11 +44,11 @@ a:active {
 
 .nav-img {
     padding: 2px;
-    margin-left: 20px;
-    height: 50px;
+    margin: 0px;
+    height: 100px;
     width: auto;
-    margin-top: -15px;
     float: left;
+    position: absolute;
 }
 
 #leftBuddha {
