@@ -1,0 +1,256 @@
+﻿body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    color: #3B3B3B;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* Navbr & Background CSS */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.navLink {
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.navbar-collapse {
+    border: 0px;
+}
+
+#userSignUp {
+    margin-right: 5px;
+}
+
+.nav-img {
+    padding: 2px;
+    margin-left: 20px;
+    height: 50px;
+    width: auto;
+    margin-top: -15px;
+    float: left;
+}
+
+#leftBuddha {
+    -webkit-filter: drop-shadow( 3px 3px 3px #303551 );
+    filter: drop-shadow( 3px 3px 3px #303551 );
+}
+
+#leftBuddhaBox {
+    padding: 0px;
+    padding-right: 2.5%;
+}
+
+#rightBuddha {
+    -webkit-filter: drop-shadow( 3px 3px 3px #303551 );
+    filter: drop-shadow( 3px 3px 3px #303551 );
+}
+
+#rightBuddhaBox {
+    padding: 0px;
+    padding-left: 2.5%;
+}
+
+#main {
+    width: 100%;
+    position: relative;
+}
+
+#imageDiv {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
+}
+
+#userRegister {
+    margin-right: 10px;
+}
+
+/* Following code take from Bootstrap navbar colour generator available at http://work.smarchal.com/twbscolor/ */
+.navbar-default {
+    background-color: #303f9f;
+    border-color: #7986cb;
+    -webkit-box-shadow: 4px 4px 4px 0px rgba(28,37,95,0.2);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(28,37,95,0.2);
+    box-shadow: 4px 4px 4px 0px rgba(28,37,95,0.2);
+}
+
+    .navbar-default .navbar-brand {
+        color: #dcdcdc;
+    }
+
+        .navbar-default .navbar-brand:hover,
+        .navbar-default .navbar-brand:focus {
+            color: #cdcdcd;
+        }
+
+    .navbar-default .navbar-text {
+        color: #dcdcdc;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #dcdcdc;
+    }
+
+        .navbar-default .navbar-nav > li > a:hover,
+        .navbar-default .navbar-nav > li > a:focus {
+            color: #cdcdcd;
+        }
+
+    .navbar-default .navbar-nav > li > .dropdown-menu {
+        background-color: #303f9f;
+    }
+
+        .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+            color: #dcdcdc;
+        }
+
+            .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+            .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+                color: #cdcdcd;
+                background-color: #7986cb;
+            }
+
+        .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+            background-color: #7986cb;
+        }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #cdcdcd;
+        background-color: #7986cb;
+    }
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #cdcdcd;
+        background-color: #7986cb;
+    }
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #cdcdcd;
+        background-color: #7986cb;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: #7986cb;
+    }
+
+        .navbar-default .navbar-toggle:hover,
+        .navbar-default .navbar-toggle:focus {
+            background-color: #7986cb;
+        }
+
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #dcdcdc;
+        }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: #dcdcdc;
+    }
+
+    .navbar-default .navbar-link {
+        color: #dcdcdc;
+    }
+
+        .navbar-default .navbar-link:hover {
+            color: #cdcdcd;
+        }
+
+@media (min-width: 767px) {
+    #main {
+        min-height: 666px;
+    }
+
+    #leftBuddha {
+        float: left;
+    }
+
+    #rightBuddha {
+        float: right;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #dcdcdc;
+    }
+
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: #cdcdcd;
+        }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #cdcdcd;
+        background-color: #7986cb;
+    }
+
+    #main {
+        min-height: 378px;
+    }
+
+    #rightBuddha {
+        display: none;
+    }
+}
+
+/* Index Logo CSS */
+#landingLogo {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+
+/* Footer CSS */
+.footer {
+    min-height: 50px;
+    background-color: #303f9f;
+    color: #cdcdcd;
+    font-weight: 300;
+    font-size: 1.2em;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+/* Main Page CSS */
+.circleHolder {
+    -webkit-filter: drop-shadow( 3px 3px 3px #303551 );
+    filter: drop-shadow( 3px 3px 3px #303551 );
+    width: 85%;
+    padding: 10px 0px 10px 0px;
+}
+
+.menuHover {
+    line-height: 250px;
+    font-size: 5em;
+}
