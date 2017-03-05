@@ -7,12 +7,18 @@
   <ItemGroup>
     <Content Include="wwwroot\css\style.css" />
     <Content Include="wwwroot\js\saprema.js" />
+    <Content Include="wwwroot\saprema-views\login-modal.html" />
+    <Content Include="wwwroot\saprema-views\main-menu.html" />
+    <Content Include="wwwroot\saprema-views\register-modal.html" />
+    <Content Include="wwwroot\saprema-views\register-student.html" />
+    <Content Include="wwwroot\saprema-views\register-teacher.html" />
+    <Content Include="wwwroot\saprema-views\student-register.html" />
+    <Content Include="wwwroot\saprema-views\teacher-register.html" />
     <Content Include="wwwroot\saprema.html" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="wwwroot\img\" />
-    <Folder Include="wwwroot\saprema-views\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
