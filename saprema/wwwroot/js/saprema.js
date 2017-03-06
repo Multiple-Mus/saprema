@@ -63,6 +63,7 @@ delegate(document, "click", "#meditation-menu-breath", function (event) {
 
 delegate(document, "click", "#breath-play-btn", function (event) {
     var breath_time = [];
+    var time;
     breath_time[0] = parseInt(document.getElementById("inhale").value);
     breath_time[1] = parseInt(document.getElementById("inHold").value);
     breath_time[2] = parseInt(document.getElementById("exhale").value);
