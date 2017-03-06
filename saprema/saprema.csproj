@@ -9,11 +9,18 @@
     <Content Include="wwwroot\js\saprema.js" />
     <Content Include="wwwroot\saprema-views\login-modal.html" />
     <Content Include="wwwroot\saprema-views\main-menu.html" />
+    <Content Include="wwwroot\saprema-views\meditation-breath-play.html" />
+    <Content Include="wwwroot\saprema-views\meditation-breath.html" />
+    <Content Include="wwwroot\saprema-views\nav-logged-in.html" />
+    <Content Include="wwwroot\saprema-views\nav-login-signup.html" />
     <Content Include="wwwroot\saprema-views\register-modal.html" />
     <Content Include="wwwroot\saprema-views\register-student.html" />
     <Content Include="wwwroot\saprema-views\register-teacher.html" />
     <Content Include="wwwroot\saprema-views\student-register.html" />
     <Content Include="wwwroot\saprema-views\teacher-register.html" />
+    <Content Include="wwwroot\saprema-views\user-poses.html" />
+    <Content Include="wwwroot\saprema-views\user-profile.html" />
+    <Content Include="wwwroot\saprema-views\user-stats.html" />
     <Content Include="wwwroot\saprema.html" />
   </ItemGroup>
 
