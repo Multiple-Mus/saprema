@@ -2,6 +2,7 @@
     font-family: 'Roboto', sans-serif;
     padding-top: 50px;
     color: #3B3B3B;
+    font-weight: 300;
 }
 
 a:link {
@@ -18,6 +19,24 @@ a:hover {
 
 a:active {
     text-decoration: none;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.page-header {
+    text-align: center;
+}
+
+.menu-link {
+    color: #3B3B3B;
+    font-weight: bold;
 }
 
 /* Navbr & Background CSS */
@@ -40,6 +59,10 @@ a:active {
 
 #user-register-btn {
     margin-right: 5px;
+}
+
+#user-menu {
+    margin-top: 8px;
 }
 
 .nav-img {
@@ -246,16 +269,20 @@ a:active {
 }
 
 /* Main Page CSS */
-.circleHolder {
+.circle-holder {
     -webkit-filter: drop-shadow( 3px 3px 3px #303551 );
     filter: drop-shadow( 3px 3px 3px #303551 );
-    width: 85%;
+    width: 75%;
     padding: 10px 0px 10px 0px;
 }
 
 .menuHover {
     line-height: 250px;
     font-size: 5em;
+}
+
+.menu-text {
+    margin-top: 20px;
 }
 
 .btn {
@@ -275,6 +302,67 @@ a:active {
         color: white;
     }
 
+/* Toggle switch CSS taken from https://www.htmllion.com/css3-toggle-switch-button.html */
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+    /* Hide default HTML checkbox */
+    .switch input {
+        display: none;
+    }
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+input:checked + .slider {
+    background-color: #7986cb;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #7986cb;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
 
 /* Taken from https://codepen.io/jamesbarnett/pen/vlpkh */
 /* Star Rating CSS */
@@ -323,4 +411,16 @@ a:active {
         .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
         .rating > input:checked ~ label:hover ~ label {
             color: #FFED85;
-        } 
+        }
+
+/* Search form taken from https://jsfiddle.net/blayderunner123/C5Eq7/ */
+/*SEARCH FORM*/
+.search-form {
+    border-radius: 30px 0px 0px 30px;
+    /*border-radius:Top-left, Top-right, Bottom-right, Bottom-left;*/
+}
+/*to cange only one form and not all give unique class name like  class="search-form" */
+.search-btn {
+    border-radius: 0px 30px 30px 0px;
+    cursor: pointer;
+}

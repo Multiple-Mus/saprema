@@ -8,22 +8,23 @@
   <ItemGroup>
     <Content Include="wwwroot\css\style.css" />
     <Content Include="wwwroot\js\saprema.js" />
+    <Content Include="wwwroot\saprema-views\class-create-random-generated.html" />
+    <Content Include="wwwroot\saprema-views\class-create-random.html" />
+    <Content Include="wwwroot\saprema-views\class-create.html" />
     <Content Include="wwwroot\saprema-views\login-modal.html" />
     <Content Include="wwwroot\saprema-views\main-menu.html" />
     <Content Include="wwwroot\saprema-views\meditation-breath-play.html" />
     <Content Include="wwwroot\saprema-views\meditation-breath.html" />
+    <Content Include="wwwroot\saprema-views\meditation-upload-confirm.html" />
+    <Content Include="wwwroot\saprema-views\meditation-upload.html" />
     <Content Include="wwwroot\saprema-views\nav-links.html" />
     <Content Include="wwwroot\saprema-views\nav-logged-in.html" />
     <Content Include="wwwroot\saprema-views\nav-login-signup.html" />
     <Content Include="wwwroot\saprema-views\register-modal.html" />
     <Content Include="wwwroot\saprema-views\register-student.html" />
     <Content Include="wwwroot\saprema-views\register-teacher.html" />
-    <Content Include="wwwroot\saprema-views\review-modal-class - Copy.html">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
     <Content Include="wwwroot\saprema-views\review-modal-class.html" />
     <Content Include="wwwroot\saprema-views\review-modal-meditation.html" />
-    <Content Include="wwwroot\saprema-views\review-modal.html" />
     <Content Include="wwwroot\saprema-views\user-poses.html" />
     <Content Include="wwwroot\saprema-views\user-profile-teacher.html" />
     <Content Include="wwwroot\saprema-views\user-profile.html" />

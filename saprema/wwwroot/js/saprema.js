@@ -48,26 +48,53 @@ delegate(document, "click", "#teacher-radio", function (event) {
 
 /* Delegates for user drop down */
 delegate(document, "click", "#logout-btn", function (event) {
+    event.preventDefault();
     //Logout functions go here
     loadHtml("/saprema-views/nav-login-signup.html", "nav-right", "GET", "text/html");
 });
 
 delegate(document, "click", "#profile-btn", function (event) {
+    event.preventDefault();
     loadHtml("/saprema-views/user-profile.html", "main-content", "GET", "text/html");
     //Write out code, if teacher logged in excicute next line
     loadHtml("/saprema-views/user-profile-teacher.html", "teacher-profile", "GET", "text/html");
 });
 
 delegate(document, "click", "#statistics-btn", function (event) {
+    event.preventDefault();
     loadHtml("/saprema-views/user-stats.html", "main-content", "GET", "text/html");
 });
 
 delegate(document, "click", "#poses-btn", function (event) {
+    event.preventDefault();
     loadHtml("/saprema-views/user-poses.html", "main-content", "GET", "text/html");
 });
 
+/* Delegates for asana menu */
+delegate(document, "click", "#menu-classes-btn", function (event) {
+    event.preventDefault();
+    loadHtml("/saprema-views/class-create.html", "main-content", "GET", "text/html");
+    loadHtml("/saprema-views/class-create-random.html", "class-content", "GET", "text/html");
+});
+
+delegate(document, "click", "#create-random-tab-btn", function (event) {
+    event.preventDefault();
+    loadHtml("/saprema-views/class-create-random.html", "class-content", "GET", "text/html");
+});
+
+delegate(document, "click", "#create-user-tab-btn", function (event) {
+    event.preventDefault();
+    loadHtml("/saprema-views/class-create-user.html", "class-content", "GET", "text/html");
+});
+
+delegate(document, "click", "#random-class-generate-btn", function (event) {
+    event.preventDefault();
+    loadHtml("/saprema-views/class-create-random-generated.html", "random-class-right", "GET", "text/html");
+});
+
 /* Delegates for meditation menu */
-delegate(document, "click", "#meditation-menu-breath", function (event) {
+delegate(document, "click", "#menu-meditation-breath-btn", function (event) {
+    event.preventDefault();
     loadHtml("/saprema-views/meditation-breath.html", "main-content", "GET", "text/html");
 });
 
@@ -81,6 +108,21 @@ delegate(document, "click", "#breath-play-btn", function (event) {
     //var params = serialize(breath_time);
     //loadHtml("/saprema-views/meditation-breath-play.html", "main-content", "POST", "application/json", breath_time);
     loadHtml("/saprema-views/meditation-breath-play.html", "main-content", "GET", "text/html");
+});
+
+delegate(document, "click", "#menu-meditation-upload-btn", function (event) {
+    event.preventDefault();
+    loadHtml("/saprema-views/meditation-upload.html", "main-content", "GET", "text/html");
+});
+
+delegate(document, "click", "#meditation upload-confirm-btn", function (event) {
+    event.preventDefault();
+    loadHtml("/saprema-views/meditation-upload.html", "main-content", "GET", "text/html");
+});
+
+delegate(document, "click", "#meditation-upload-btn", function (event) {
+    event.preventDefault();
+    loadHtml("/saprema-views/meditation-upload-confirm.html", "primary-modal", "GET", "text/html");
 });
 
 function loadHtml(route, replace, type, reqHeader, params) {
